@@ -1,0 +1,19 @@
+:root {
+    --header-color: rgba(191, 117, 6, 1);
+    --img_text: rgba(33, 27, 18, 1);
+}
+@font-face {
+    font-family: "Inter";
+    src: url(/style/Inter_18pt-Regular.ttf);
+}
+@font-face {
+    font-family: "Inter-bold";
+    src: url(/style/Inter_18pt-Bold.ttf);
+}
+.page2 {
+    margin: 0 auto;
+    max-width: 872px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 120px;
+}
