@@ -215,8 +215,6 @@ height: 74.63px;
 .wrat {
     margin:  0 auto;
     max-width: 872px;
-    display: flex;
-    flex-direction: column;
     margin-top: 40px;
     margin-bottom: 0px;
     padding-left: 40px;
@@ -266,7 +264,7 @@ margin: 0px;
 .email form{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+ 
     width: 435px;
     margin: 0 auto;
    
@@ -310,7 +308,7 @@ border-radius: 4px;
     border: none;
     gap: 5px;
     border-bottom: 2px solid rgba(191, 117, 6, 1);
-     margin-left: 300px;
+    
      color:  rgba(33, 27, 18, 1);
 font-family: Inter;
 font-style: Bold;
@@ -319,27 +317,21 @@ font-weight: 700;
 line-height: 150%;
 letter-spacing: 0%;
 text-align: left;
+ margin-left: 300px;
     
 }
+
 .submit {
     display: flex;
-    justify-content: flex-end;
+  
    
 }
 .email form button:hover {
     color:  rgb(182, 129, 49);
     transition: color 1s
 }
-.footer {
-    margin: 0 auto;
-    max-width: 872px;
-    padding-bottom: 16px;
-   text-align: center;
-  
-    padding-left: 40px;
-    padding-right: 40px;
-}
-.footer_span {
+
+.email form label {
     color:  rgba(131, 128, 124, 1);
 font-family: Inter;
 font-style: Regular;
@@ -347,5 +339,5 @@ font-size: 16px;
 font-weight: 400;
 line-height: 150%;
 letter-spacing: 0%;
-text-align: center;
+text-align: left;
 }

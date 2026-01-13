@@ -1,0 +1,19 @@
+.footer {
+    margin: 0 auto;
+    max-width: 872px;
+    padding-bottom: 16px;
+   text-align: center;
+  
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.footer_span {
+    color:  rgba(131, 128, 124, 1);
+font-family: Inter;
+font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+}
