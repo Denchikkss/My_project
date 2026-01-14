@@ -1,3 +1,6 @@
+* {
+    box-sizing:border-box;
+}
 .section_top {
     margin: 0 auto;
     max-width:872px;
@@ -50,7 +53,7 @@ margin-bottom: 24px;
     border-bottom: 3px solid rgba(191, 117, 6, 1);
     max-width: 179px;
     padding-right: 8px;
-    padding-left: 8px;
+    
     
 }
 link_bit a {
@@ -62,7 +65,30 @@ font-weight: 700;
 line-height: 150%;
 letter-spacing: 0%;
 text-align: left;
+text-decoration: none;
 
+}
+.link_bit span a {
+   
+    text-decoration: none;
+    color: black;
+font-family: "Inter-bold";
+font-style: Bold;
+font-size: 14px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+text-decoration: none;
+
+}
+.social img:hover {
+    border-bottom:  3px solid rgb(218, 190, 154);
+  
+}
+.link_bit:hover {
+    border-bottom:  3px solid rgb(218, 190, 154);
+    transition: border-bottom 1s;
 }
 .page_h1 {
     color: rgba(191, 117, 6, 1);
@@ -277,61 +303,68 @@ margin: 0px;
    
     
 }
+
 .email {
     margin-bottom: 167px;
 }
-.email form input {
+.input_class {
      margin-bottom: 24px;
      padding-top: 21px;
      padding-bottom: 21px;
      box-sizing: border-box;
 border: 3px solid  rgba(224, 222, 220, 1);
-border-radius: 4px;
-
+border-radius: 6px;
+ width: 435px;
+ line-height: 150%;
+ background: white;
+ padding-left: 20px;
+ 
+}
+#text_area {
+     width: 435px;
 }
 .email form h1 {
      text-align: start;
 }
-.email form label {
-  
-     position: relative;
-}
+
 .email form textarea {
        margin-bottom: 24px;
      padding-top: 21px;
      padding-bottom: 21px;
      box-sizing: border-box;
 border: 3px solid  rgba(224, 222, 220, 1);
-border-radius: 4px;
+border-radius: 6px;
+padding-left: 20px;
+ 
 }
-.email form button {
+.sumbit {
     display: flex;
+    justify-content: flex-end;
     align-items: center;
-   justify-content: center;
-   text-align: center;
-    width: 120px;
-    background-color: white;
-    border: none;
-    gap: 5px;
-    border-bottom: 2px solid rgba(191, 117, 6, 1);
     
-     color:  rgba(33, 27, 18, 1);
-font-family: Inter;
+    
+}
+.simbit_class {
+   display: flex;
+   align-items:center;
+  gap: 10px;
+   border: none;
+   background: white;
+   border-bottom: 3px solid  rgba(221, 156, 60, 1);
+   cursor: pointer;
+}
+.submit_span {
+    color:  rgba(33, 27, 18, 1);
+font-family: Inter-bold;
 font-style: Bold;
 font-size: 16px;
 font-weight: 700;
 line-height: 150%;
 letter-spacing: 0%;
 text-align: left;
- margin-left: 300px;
-    
 }
 
-.submit {
-    display: flex;
-  
-   
-}
+
 .email form button:hover {
     color:  rgb(182, 129, 49);
     transition: color 1s
@@ -346,4 +379,61 @@ font-weight: 400;
 line-height: 150%;
 letter-spacing: 0%;
 text-align: left;
+}
+@media (max-width: 862px) {
+    .Social_link {
+    display: flex ;
+    gap: 3px;
+   text-align: start;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+    .link_bit {
+        display: flex;
+        gap: 0px;
+    }
+    
+    .section_top {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .images_pag {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .page3_wrapper {
+         display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+@media (max-width: 520px) {
+    .page2 {
+        padding: 0px;
+    }
+    .page3_wrapper {
+        padding: 0px;
+    }
+    .section_top {
+        padding: 0px;
+    }
+    .writting_header {
+        padding: 0px;
+    }
+}
+.rel {
+    position: relative;
+    padding-top: 10px;
+   
+}
+.rel .label {
+    position: absolute;
+    top: 0;
+    left: 16px;
+    background: white;
+    padding-left: 8px;
+    padding-right: 8px;
 }
