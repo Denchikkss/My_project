@@ -296,16 +296,28 @@ margin: 0px;
 .email form{
     display: flex;
     flex-direction: column;
- 
+    
     width: 435px;
     margin: 0 auto;
    
    
     
 }
-
+.writting {
+    position: relative;
+}
 .email {
     margin-bottom: 167px;
+    display: flex;
+    gap: 30px;
+   
+  
+}
+.iop {
+    position: absolute;
+    top: 9%;
+    right:  0;
+    width: 35%;
 }
 .input_class {
      margin-bottom: 24px;
@@ -409,10 +421,14 @@ text-align: left;
         flex-direction: column;
         gap: 30px;
     }
+    .page2 {
+          margin-bottom: 29px;
+    }
 }
 @media (max-width: 520px) {
     .page2 {
         padding: 0px;
+      
     }
     .page3_wrapper {
         padding: 0px;
@@ -423,6 +439,7 @@ text-align: left;
     .writting_header {
         padding: 0px;
     }
+   
 }
 .rel {
     position: relative;
@@ -436,4 +453,14 @@ text-align: left;
     background: white;
     padding-left: 8px;
     padding-right: 8px;
+}
+@media (max-width: 1585px) {
+     .iop {
+         width: 30%;
+    }
+}
+@media (max-width: 1300px) {
+     .iop {
+         width: 25%;
+    }
 }
