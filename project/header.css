@@ -44,3 +44,18 @@ line-height: 150%;
 letter-spacing: 0%;
 
 }
+@media (max-width: 520px) {
+    
+    .header_wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: start;
+    }
+    .header_menu ul {
+        flex-direction: column;
+        padding: 0;
+        
+    }
+   
+}
