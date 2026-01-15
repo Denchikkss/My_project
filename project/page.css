@@ -355,6 +355,16 @@ width: 100%;
     
     
 }
+ .email form h1 {
+   color: rgba(33, 27, 18, 1);
+font-family: Inter-bold;
+font-style: Bold;
+font-size: 32px;
+font-weight: 700;
+line-height: 125%;
+letter-spacing: -3%;
+
+ }
 .simbit_class {
    display: flex;
    align-items:center;
@@ -504,6 +514,9 @@ text-align: left;
     img {
         width: 98%;
     }
+      .email form h1 {
+        width: 90%;
+    } 
 }
 @media (max-width: 436px) {
     body {
@@ -512,6 +525,9 @@ text-align: left;
     img {
         width: 95%;
     }
+      .email form h1 {
+        width: 90%;
+    } 
 }
 @media (max-width: 413px) {
     body {
@@ -520,6 +536,9 @@ text-align: left;
     img {
         width: 95%;
     }
+      .email form h1 {
+        width: 90%;
+    } 
 }
 @media (max-width: 540px) {
     .page2 {
@@ -537,4 +556,9 @@ text-align: left;
     body {
         width: 90%;
     }
+    .email form h1 {
+        width: 80%;
+        font-size: 25px;
+       
+    } 
 }
